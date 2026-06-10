@@ -68,3 +68,32 @@ Durante o desenvolvimento foram aplicadas práticas de Garantia da Qualidade (QA
 - Validação de campos obrigatórios
 - Testes de integração Frontend ↔ Backend
 - Registro e análise de defeitos encontrados
+
+- ## 📋 Casos de Teste
+
+### CT001 - Gerar página com prompt válido
+**Dado** que o usuário informa um prompt válido
+
+**Quando** solicitar a geração da página
+
+**Então** o sistema deve retornar uma página gerada pela IA
+
+---
+
+### CT002 - Prompt vazio
+
+**Dado** que o campo de prompt está vazio
+
+**Quando** o usuário tentar gerar uma página
+
+**Então** o sistema deve exibir uma mensagem de validação
+
+---
+
+### CT003 - Falha na API
+
+**Dado** que a API esteja indisponível
+
+**Quando** o usuário solicitar uma geração
+
+**Então** o sistema deve exibir uma mensagem de erro amigável
