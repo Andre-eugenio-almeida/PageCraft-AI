@@ -57,4 +57,14 @@ pagecraft-ai/
 5. Resultado é exibido na tela
 
 ---
+## 🧪 Qualidade e Testes
 
+Durante o desenvolvimento foram aplicadas práticas de Garantia da Qualidade (QA), incluindo:
+
+- Testes manuais da interface do usuário
+- Validação de respostas da API
+- Testes de cenários positivos e negativos
+- Verificação de tratamento de erros
+- Validação de campos obrigatórios
+- Testes de integração Frontend ↔ Backend
+- Registro e análise de defeitos encontrados
